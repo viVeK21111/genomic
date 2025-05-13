@@ -40,7 +40,7 @@
         .fixed-img {
             position: absolute;
             right: 10px;
-            top: 10px;
+            top: 5px;
             z-index: 1000;
         }
         
@@ -57,7 +57,6 @@
         }
         
         .content-section:hover {
-            transform: translateY(-5px);
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
         }
         
@@ -192,7 +191,14 @@
         .github-btn:hover {
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
         }
+        .navbar-nav .nav-item {
+            margin-left: 6px; /* Remove margin between nav items */
+        }
+        .navbar-toggler {
+            margin-left: 4px;
+        }
     </style>
+
 </head>
 <body>
     <!-- Decorative elements -->
@@ -220,7 +226,7 @@
                 </li>
             </ul>
         </div>
-        <img class="dimg fixed-img" src="{{url_for('static',filename='dm.png')}}" alt="error loading">
+        <a href="/"><img  class="dimg fixed-img" src="{{url_for('static',filename='dm.png')}}" alt="error loading"></a>
     </nav>
 
     <div class="container my-4">
