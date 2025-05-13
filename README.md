@@ -1,6 +1,6 @@
-### UI
+### Render deployment
+Flask server deployed on render <br>
 
-![Image](static/ui.png)
+Link https://genomic.onrender.com <br>
 
-you can also visit the Link https://genomic.onrender.com <br>
-But the site may take time to load.
+(Note:Site may take couple of seconds to load).
